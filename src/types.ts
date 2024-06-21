@@ -212,7 +212,6 @@ type RawRuleProps = RawCommonProps & {
    * 一个或者多个合法的 GKD 选择器, 如果每个选择器都能匹配上节点, 那么点击最后一个选择器的目标节点
    */
   matches?: IArray<string>;
-
   /**
    * 一个或者多个合法的 GKD 选择器, 如果存在一个选择器匹配上节点, 则停止匹配此规则
    */

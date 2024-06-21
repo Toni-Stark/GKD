@@ -7,17 +7,15 @@ export default defineAppConfig({
   groups: [
     {
       key: 6,
-      name: '弹窗广告',
+      name: '局部广告-卡片式广告',
       rules: [
         {
           key: 0,
-          name: '悬浮广告',
-          quickFind: true,
           activityIds:
             'com.anjuke.android.app.mainmodule.common.activity.MainTabPageActivityV5',
           matches:
             '[vid="closeImageView"][id="com.anjuke.android.app:id/closeImageView"]',
-          snapshotUrls: 'https://i.gkd.li/snapshot/1711016143634',
+          // snapshotUrls: 'https://i.gkd.li/snapshot/1711016143634',
         },
       ],
     },
